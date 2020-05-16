@@ -1,0 +1,22 @@
+How to build CLI gem
+
+1. Plan your gem
+2. Start with projject structure
+3. Start with entry point - the file run
+4. Force that to build the CLI interface
+5. stub out the interface
+6. start making things real
+7. discover objects.
+8. program.
+
+Bin
+- creat a file in bin with (essential name)
+- in bin file make sure it can read ruby by adding on line 1. #!/usr/bin/env ruby       (excutive permission through ./bin/(essential name) for when people run project)
+- look into bin directory (cd bin/)
+- type in ls -lah ,it will show which has executive permission with executive x 
+- to add use chmod +x (essential name)
+(essential name)::CLI.new.call
+
+
+cli.rb -- CLI Controller
+#class (essential name)::CLI
