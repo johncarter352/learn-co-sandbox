@@ -9,14 +9,11 @@ How to build CLI gem
 7. discover objects.
 8. program.
 
-Bin
-- creat a file in bin with (essential name)
-- in bin file make sure it can read ruby by adding on line 1. #!/usr/bin/env ruby       (excutive permission through ./bin/(essential name) for when people run project)
-- look into bin directory (cd bin/)
-- type in ls -lah ,it will show which has executive permission with executive x 
-- to add use chmod +x (essential name)
-(essential name)::CLI.new.call
 
 
 cli.rb -- CLI Controller
 #class (essential name)::CLI
+
+people = "Abby Andrews, Ben \r\nCharlie Connors    Daphne D., Ernie E. Engels; Faye\r\n\r\nGary Gomez"
+
+array = people.split( /\s*[,;]\s*)
